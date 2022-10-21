@@ -5,3 +5,5 @@ gcloud config set project cks-practice-366109
 gcloud compute ssh cks-maaster --zone asia-south1-c
 
 gcloud compute ssh cks-worker --zone asia-south1-c
+
+test
