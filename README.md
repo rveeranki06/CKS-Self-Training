@@ -1,1 +1,1 @@
-# CKS-Training
+# CKS-Self-Training
