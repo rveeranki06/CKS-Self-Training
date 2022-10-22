@@ -1,0 +1,24 @@
+1. CA :
+    path: /etc/kubernetes/pki/ca.crt
+2.API server cert
+    path:  /etc/kubernetes/pki/apiserver.crt
+3.ETCD Server cert
+    path: /etc/kubernetes/pki/etcd/server.crt
+4.API --> ETCD
+    path: /etc/kubernetes/pki/apiserver-etcd-client.crt
+5.API --> Kubelet
+    path: /etc/kubernetes/pki/apiserver-kubelet-client.crt
+6.scheduler --> API
+    path: /etc/kubernetes/scheduler.conf
+
+7.controller manager --> API
+    path: /etc/kubernetes/controller-manager.conf
+
+8.Kubelet --> API
+    path: /etc/kubernetes/kubelet.conf
+    cert  location: /var/lib/kubelet/pki/kubelet-client-current.pem
+
+
+9.Kubelet server cert
+    path: /var/lib/kubelet/pki
+    cert: /var/lib/kubelet/pki/kubelet.crt
